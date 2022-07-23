@@ -1,0 +1,28 @@
+interface Pessoa {
+    nome:string,
+    idade: number,
+    profissao: string
+}
+
+let pessoa1:Pessoa = {
+    nome: "maria",
+    idade: 29,
+    profissao: "atriz"
+}
+
+let pessoa2 = {} as Pessoa
+pessoa2.nome = "roberto";
+pessoa2.idade = 19;
+pessoa2.profissao = "Padeiro";
+
+let pessoa3 = {
+    nome: "laura",
+    idade: "32",
+    profissao: "Atriz"
+};
+
+let pessoa4 = {
+    nome: "carlos",
+    idade: 19,
+    profissao: "padeiro"
+}
